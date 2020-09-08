@@ -1,12 +1,12 @@
-# NextPress Coding Standards
+# WooDelivery Coding Standards
 
-The goal of this repo is to provide the necessary sniffs for our custom coding standards, making sure that all NextPress products maintain a consistent codebase.
+The goal of this repo is to provide the necessary sniffs for our custom coding standards, making sure that all WooDelivery products maintain a consistent codebase.
 
 ## Installation
 
 Our coding standards rely on PHPCS and WordPress Coding Standards. The easiest way to get everything up and running is installing this package globally via Composer:
 ```
-composer global require "nextpress/nextpresscs:dev-master"
+composer global require "danleal/woodeliverycs:dev-master"
 ```
 
 This command will install PHP_CodeSniffer, WPCS, our coding standard, and PHP_CodeSniffer Standards Composer Installer, a composer package that automatically sets the PHPCS `installed_paths` config.
@@ -22,10 +22,5 @@ export PATH="$HOME/.config/composer/vendor/bin/:$PATH"
 
 # Changelog
 
-### Version 0.0.3 - 27/08/2020
-
-### Version 0.0.2
-* Changed: Global install via composer with PHP_CodeSniffer Standards Composer Installer;
-
-### Version 0.0.1
+### Version 1.0.0
 * Added: Initial version of the Coding Standards;
