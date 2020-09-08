@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="NextPress">
-	<description>Rules for Coding Standards in NextPress products</description>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="WooDelivery">
+	<description>Rules for Coding Standards</description>
 
 	<arg name="tab-width" value="2"/>
 
@@ -30,7 +30,7 @@
 		<exclude name="PEAR.Functions.FunctionCallSignature" />
 		<!-- <exclude name="WordPress.NamingConventions.ValidFunctionName.FunctionNameInvalid" /> -->
 	</rule>
-	
+
 	<rule ref="WordPress-Docs">
 		<exclude name="Squiz.Commenting.LongConditionClosingComment.SpacingBefore"/>
 		<exclude name="Squiz.Commenting.InlineComment.InvalidEndChar"/>
@@ -114,5 +114,5 @@
   <rule ref="Squiz.PHP.NonExecutableCode"/>
 
   <rule ref="Squiz.Scope.StaticThisUsage"/>
-  
+
 </ruleset>

@@ -1,13 +1,13 @@
 {
-    "name": "nextpress/nextpresscs",
-    "version": "3.0.0",
+    "name": "danleal/woodeliverycs",
+    "version": "1.0.0",
     "type": "phpcodesniffer-standard",
-    "description": "NextPress Coding Standards",
+    "description": "WooDelivery Coding Standards",
     "minimum-stability": "stable",
     "authors": [
         {
-            "name": "Arindo Duque",
-            "email": "arindo@wpultimo.com"
+            "name": "Daniel Leal",
+            "email": "daniel.leal.san@gmail.com"
         }
     ],
     "license": "MIT",
