@@ -43,15 +43,15 @@
 	</rule>
 
 	<!-- Have code block comments look like // end foreach; etc. -->
-	<rule ref="NextPress.Commenting.LongConditionClosingComment">
-			<!-- <exclude name="NextPress.Commenting.LongConditionClosingComment.Invalid" /> -->
+	<rule ref="WooDelivery.Commenting.LongConditionClosingComment">
+			<!-- <exclude name="WooDelivery.Commenting.LongConditionClosingComment.Invalid" /> -->
 			<properties>
 				<property name="lineLimit" value="1" />
 				<property name="commentFormat" value="// end %s;" />
 			</properties>
 	</rule>
 
-	<rule ref="NextPress.Commenting.ClosingDeclarationComment">
+	<rule ref="WooDelivery.Commenting.ClosingDeclarationComment">
 	</rule>
 
 	<rule ref="Squiz.ControlStructures.ControlSignature">
